@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Invitation</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Great Vibes', cursive, sans-serif;
+      background: linear-gradient(to right, #ffb6c1, #ff69b4);
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    
+        }
+		
+		
+	.card {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.3em;
+    }
+    .emoji {
+      font-size: 2em;
+    }
+    button {
+      background: #fff;
+      color: #ff1493;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1.1em;
+      border-radius: 12px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    button:hover {
+      background: #ffe4e1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="emoji">🎉🎀🎂🧁</div>
+	<div>
+	<img id="myImage" src="birthday.jpg" style="width: 70%; max-width: 600px; height: auto;" alt="Birthday Photo">
+	<div>
+    
+    <h1>You're Invited!</h1>
+    <p>Come celebrate <strong>Avika's 6th Birthday!</strong></p>
+    <p><strong>Date:</strong> Saturday, May 24, 2025</p>
+    <p><strong>Time:</strong> 5:00 PM</p>
+    <p><strong>Place:</strong> 2721 Kaman Lane Pearland </p>
+    <p>Games, giggles, and cake await! 🎈</p>
+    <button onclick="rsvp()">RSVP</button>
+  </div>
+
+  <script>
+    function rsvp() {
+      alert("Thanks for RSVPing! Lily is excited to see you! 🎁");
+    }
+  </script>
+
+</body>
+</html>
